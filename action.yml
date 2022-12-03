@@ -1,8 +1,8 @@
-name: 'Set Action Secret'
+name: "Set Action Secret"
 
 author: Habid Manzur
 
-description: 'Create or update secrets in github repository'
+description: "Create or update secrets in github repository"
 
 branding:
   icon: lock
@@ -46,5 +46,5 @@ outputs:
     description: Response data
 
 runs:
-  using: 'node12'
-  main: 'dist/index.js'
+  using: "node16"
+  main: "dist/index.js"
